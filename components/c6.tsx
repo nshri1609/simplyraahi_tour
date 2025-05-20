@@ -8,13 +8,13 @@ export default function C6() {
       // Special cases for specific destinations
       switch (location.toLowerCase()) {
         case "chardham yatra":
-          router.push("http://localhost:3000/Destination/char-dham");
+          router.push("/Destination/char-dham");
           break;
         case "kedarnath yatra":
-          router.push("http://localhost:3000/Destination/kedarnath");
+          router.push("/Destination/kedarnath");
           break;
         case "do dham yatra":
-          router.push("http://localhost:3000/Destination/do-dham");
+          router.push("/Destination/do-dham");
           break;
         default:
           const formattedLocation = location.toLowerCase().replace(/\s+/g, "-");

@@ -450,7 +450,7 @@ export default function CombinedDestinationPage() {
       bestTime: "Mid June to Early September",
       price: "₹13,999",
       pdfLink:
-        "https://drive.google.com/file/d/19ExvVY-_lKuRYgOZpmtCSvi6dADFkNxa/view",
+        "https://drive.google.com/file/d/19ExvVY-_lKuRYgOZpmtCSvi6dADFkNxa/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",

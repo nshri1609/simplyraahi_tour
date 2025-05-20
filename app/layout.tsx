@@ -17,19 +17,10 @@ export const metadata: Metadata = {
   description:
     "Discover amazing treks, tours, and adventures in the Himalayas with SimplyRaahi",
   icons: {
-    icon: [
-      {
-        url: "/Logo SimplyRaahi.PNG",
-        type: "image/png",
-      },
-    ],
-    apple: [
-      {
-        url: "/Logo SimplyRaahi.PNG",
-        type: "image/png",
-      },
-    ],
+    icon: "/Logo SimplyRaahi.PNG",
+    apple: "/Logo SimplyRaahi.PNG",
   },
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
@@ -39,6 +30,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/Logo SimplyRaahi.PNG" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

@@ -65,7 +65,7 @@ export default function PanchKedarPage() {
         alt: "Scenic View",
       },
       {
-        src: "https://i.pinimg.com/736x/24/f0/6a/24f06a5d039bb573755c0aea368ff680.jpg",
+        src: "https://i.pinimg.com/736x/ce/88/f8/ce88f88cf0fcdc22ebd134d49a1e8aaa.jpg",
         alt: "Temple Architecture",
       },
       {

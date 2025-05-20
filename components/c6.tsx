@@ -6,7 +6,7 @@ export default function C6() {
   const handleLocationChange = (location: string) => {
     try {
       // Special cases for specific destinations
-      switch(location.toLowerCase()) {
+      switch (location.toLowerCase()) {
         case "chardham yatra":
           router.push("http://localhost:3000/Destination/char-dham");
           break;
@@ -27,30 +27,35 @@ export default function C6() {
 
   const tours = [
     {
-          title: "Chardham Yatra",
-          image: "https://i.pinimg.com/736x/30/a2/e8/30a2e82c5bb00e89a501e50df5c358f6.jpg",
-          details: "Embark on a Spiritual Odyssey to Kedarnath & the Chardham Circuit.",
-          duration: "10 Days & 9 Nights",
-     
-          buttonText: "View Details",
-        },
-        {
-          title: "Kedarnath Yatra",
-          image: "https://i.pinimg.com/564x/b3/7d/ae/b37dae0806eec5a55a011a0126ff3c60.jpg",
-          details: "Experience the divine Kedarnath Temple surrounded by the Himalayas.",
-          duration: "5 Days & 4 Nights",
-  
-          buttonText: "View Details",
-        },
-        {
-          title: "Do dham yatra",
-          image: "https://i.pinimg.com/736x/35/a8/1b/35a81b479cf0334d503799fd683145ae.jpg",
-          details: "Visit the two most sacred Dhams - Kedarnath and Badrinath.",
-          duration: "7 Days & 6 Nights",
-     
-          buttonText: "View Details",
-        }
-      ];
+      title: "Chardham Yatra",
+      image:
+        "https://i.pinimg.com/736x/30/a2/e8/30a2e82c5bb00e89a501e50df5c358f6.jpg",
+      details:
+        "Embark on a Spiritual Odyssey to Kedarnath & the Chardham Circuit.",
+      duration: "10 Days & 9 Nights",
+      price: "₹25,999",
+      buttonText: "View Details",
+    },
+    {
+      title: "Kedarnath Yatra",
+      image:
+        "https://i.pinimg.com/564x/b3/7d/ae/b37dae0806eec5a55a011a0126ff3c60.jpg",
+      details:
+        "Experience the divine Kedarnath Temple surrounded by the Himalayas.",
+      duration: "5 Days & 4 Nights",
+      price: "₹15,999",
+      buttonText: "View Details",
+    },
+    {
+      title: "Do dham yatra",
+      image:
+        "https://i.pinimg.com/736x/35/a8/1b/35a81b479cf0334d503799fd683145ae.jpg",
+      details: "Visit the two most sacred Dhams - Kedarnath and Badrinath.",
+      duration: "7 Days & 6 Nights",
+      price: "₹19,999",
+      buttonText: "View Details",
+    },
+  ];
 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-8 mt-20 max-w-7xl mx-auto">
@@ -89,5 +94,3 @@ export default function C6() {
     </div>
   );
 }
-
-

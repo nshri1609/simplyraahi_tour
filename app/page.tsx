@@ -15,7 +15,7 @@ const destinations = [
     image: "/panchkedar1.jpeg",
     description:
       "Embark on a spiritual journey to the five sacred temples of Lord Shiva in the Garhwal Himalayas.",
-    link: "http://localhost:3000/Destination/panch-kedar",
+    link: "/Destination/panch-kedar",
   },
   {
     name: "Hampta Pass - Chandratal",

@@ -18,7 +18,7 @@ const weekendTrips = [
     image: "https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b",
     price: "₹6,500",
     startingPoint: "Starting Point: Delhi",
-    link: "http://localhost:3000/Destination/kasol-kheerganga",
+    link: "/Destination/kasol-kheerganga",
   },
   {
     title: "Manali-Sissu-Kasol",
@@ -126,7 +126,7 @@ const religiousTours = [
       "https://i.pinimg.com/736x/f1/8b/e2/f18be2c3856d35b15e09b6c5901e96df.jpg",
     price: "₹24,999",
     startingPoint: "Starting Point: Haridwar",
-    link: "http://localhost:3000/Destination/panch-kedar",
+    link: "/Destination/panch-kedar",
   },
   {
     title: "Kedarnath Dham",
@@ -135,16 +135,17 @@ const religiousTours = [
     image: "/c61.jpeg",
     price: "₹10,500",
     startingPoint: "Starting Point: Haridwar",
-    link: "http://localhost:3000/Destination/kedarnath",
+    link: "/Destination/kedarnath",
   },
   {
     title: "Do Dham Yatra",
     description:
       "Pilgrimage to Kedarnath and Badrinath, two of the most sacred shrines.",
-    image: "https://i.pinimg.com/736x/5e/22/98/5e2298868c5b425c71b929d63b7f8509.jpg",
+    image:
+      "https://i.pinimg.com/736x/5e/22/98/5e2298868c5b425c71b929d63b7f8509.jpg",
     price: "₹15,000",
     startingPoint: "Starting Point: Haridwar",
-    link: "http://localhost:3000/Destination/do-dham",
+    link: "/Destination/do-dham",
   },
   {
     title: "Char Dham Yatra",
@@ -153,7 +154,7 @@ const religiousTours = [
     image: "/char dham.jpeg",
     price: "₹22,000",
     startingPoint: "Starting Point: Haridwar",
-    link: "http://localhost:3000/Destination/char-dham",
+    link: "/Destination/char-dham",
   },
   {
     title: "Rudranath Temple",

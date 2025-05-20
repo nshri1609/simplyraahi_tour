@@ -49,7 +49,7 @@ export default function PanchKedarPage() {
         alt: "Panch Kedar Yatra",
       },
       {
-        src: "https://i.pinimg.com/736x/ef/c8/36/efc836811233d555ec0f8b76826be4a5.jpg",
+        src: "https://i.pinimg.com/736x/9f/0b/2c/9f0b2cbed10e17195a3258412bdfc164.jpg",
         alt: "Temple View",
       },
       {
@@ -57,7 +57,7 @@ export default function PanchKedarPage() {
         alt: "Mountain View",
       },
       {
-        src: "https://i.pinimg.com/736x/0a/78/4b/0a784b50a785d434ab4c25e9634d3e3a.jpg",
+        src: "https://i.pinimg.com/736x/f3/70/47/f37047eaddb7afcee072248b720f48e8.jpg",
         alt: "Trek Path",
       },
       {

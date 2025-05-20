@@ -48,15 +48,15 @@ export default function CharDhamPage() {
         alt: "Char Dham Yatra",
       },
       {
-        src: "https://i.pinimg.com/736x/ee/29/2d/ee292d5cb9375ea0f7a224c029f15506.jpg",
+        src: "https://i.pinimg.com/736x/41/ff/2f/41ff2f13831e6ec60ce107135cbc57a7.jpg",
         alt: "Temple View",
       },
       {
-        src: "https://i.pinimg.com/736x/0c/51/ee/0c51eed3e57adfb10b89a2a8b15f84a8.jpg",
+        src: "https://i.pinimg.com/736x/4b/2c/7d/4b2c7ddc0077cb64d551216aeb9b60ba.jpg",
         alt: "Mountain View",
       },
       {
-        src: "https://i.pinimg.com/736x/66/37/0f/66370fb591dcc464d1628243388cc6b1.jpg",
+        src: "https://i.pinimg.com/736x/f3/46/19/f34619dd33976be30db5acfba330b9a9.jpg",
         alt: "Trek Path",
       },
       {

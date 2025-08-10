@@ -240,7 +240,7 @@ export default function C7() {
         </div>
       </div>
 
-      {/* Bottom Bar with Policy Links */}
+      {/* Bottom Bar with Policy Links
       <div className="bg-gray-900 text-white py-6">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
@@ -292,8 +292,8 @@ export default function C7() {
               </a>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   );
 }

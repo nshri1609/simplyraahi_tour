@@ -146,11 +146,11 @@ export default function Navbar() {
             Contact Us
           </span>
         </Link>
-        <Link href="/privacy-policy">
+        {/* <Link href="/privacy-policy">
           <span className="block md:inline-block py-2 px-4 hover:text-sky-400 transition">
             Privacy Policy
           </span>
-        </Link>
+        </Link> */}
       </div>
 
       <div className="hidden md:flex items-center bg-gray-100 px-3 py-2 rounded-lg space-x-2">

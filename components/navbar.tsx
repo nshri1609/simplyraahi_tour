@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import Link from 'next/link';
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
@@ -26,34 +26,34 @@ export default function Navbar() {
     "Kedarnath Yatra",
     "Panch Kedar Yatra",
     "Rudranath & Kalpeshwar",
-    "Madhyamaheshwar"
+    "Madhyamaheshwar",
   ];
 
   const destinations = [
     {
       name: "Manali",
-      link: "/Destination/manali"
+      link: "/Destination/manali",
     },
     {
       name: "Jibhi",
-      link: "/Destination/jibhi-tirthan"
+      link: "/Destination/jibhi-tirthan",
     },
     {
       name: "Kasol",
-      link: "/Destination/kasol"
+      link: "/Destination/kasol",
     },
     {
       name: "Tungnath Yatra",
-      link: "/Destination/tungnath"
-    }
+      link: "/Destination/tungnath",
+    },
   ];
 
   const handleLocationChange = (location: string) => {
     if (!location) return;
     setSelectedLocation(location);
-    
+
     // Special cases for specific destinations
-    switch(location.toLowerCase()) {
+    switch (location.toLowerCase()) {
       case "valley of flowers":
         router.push("/Destination/valleyofflowers");
         return;
@@ -85,22 +85,28 @@ export default function Navbar() {
         router.push("/Destination/madhyamaheshwar");
         return;
     }
-    
+
     // Handle individual destinations
-    const individualDestinations = ["manali", "kasol", "jibhi", "nagtibba", "tungnath", "mcleodganj"];
+    const individualDestinations = [
+      "manali",
+      "kasol",
+      "jibhi",
+      "nagtibba",
+      "tungnath",
+      "mcleodganj",
+    ];
     if (individualDestinations.includes(location.toLowerCase())) {
       router.push(`/Destination/${location.toLowerCase()}`);
       return;
     }
-    
+
     // Handle combined destinations
-    const formattedLocation = location.toLowerCase().replace(/\s+/g, '-');
+    const formattedLocation = location.toLowerCase().replace(/\s+/g, "-");
     router.push(`/Destination/${formattedLocation}`);
   };
 
   return (
     <nav className="flex items-center justify-between px-4 sm:px-6 md:px-10 py-2 bg-white border-b border-gray-200 h-24 w-full">
-      
       <div className="flex items-center">
         <Link href="/">
           <img
@@ -110,18 +116,20 @@ export default function Navbar() {
           />
         </Link>
       </div>
-      
+
       <button
         className="md:hidden text-3xl text-sky-950 focus:outline-none"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         {isMenuOpen ? "×" : "☰"}
       </button>
-      
+
       <div
         className={`absolute md:static top-20 left-0 w-full md:w-auto bg-white md:bg-transparent
                    shadow-md md:shadow-none z-50 md:flex items-center space-x-6 text-lg text-sky-950
-                   transition-all duration-300 ease-in-out ${isMenuOpen ? "block" : "hidden"}`}
+                   transition-all duration-300 ease-in-out ${
+                     isMenuOpen ? "block" : "hidden"
+                   }`}
       >
         <Link href="/tours">
           <span className="block md:inline-block py-2 px-4 hover:text-sky-400 transition">
@@ -138,8 +146,13 @@ export default function Navbar() {
             Contact Us
           </span>
         </Link>
+        <Link href="/privacy-policy">
+          <span className="block md:inline-block py-2 px-4 hover:text-sky-400 transition">
+            Privacy Policy
+          </span>
+        </Link>
       </div>
-      
+
       <div className="hidden md:flex items-center bg-gray-100 px-3 py-2 rounded-lg space-x-2">
         <select
           value={selectedLocation}
@@ -151,11 +164,11 @@ export default function Navbar() {
           </option>
           {locations.map((loc, index) => (
             <option key={index} value={loc}>
-              {loc.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
+              {loc.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())}
             </option>
           ))}
         </select>
-        
+
         <button
           onClick={() => handleLocationChange(selectedLocation)}
           className="px-6 py-2 text-white bg-gradient-to-r from-blue-500 to-blue-700 rounded-lg

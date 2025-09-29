@@ -39,7 +39,7 @@ export default function PanchKedarPage() {
     trekDistance: "140 km",
     startingPoint: "Rishikesh",
     pdfLink:
-      "https://drive.google.com/file/d/1YrpWdhFKNbFjADObW9XB9ACHtZqRyk2a/view?usp=sharing",
+      "https://drive.google.com/file/d/1ZVyBAHrAaGho0e-n2CqtXqsubcLmNYl0/view?usp=sharing",
     whatsappNumber: "919876543210",
     phoneNumber: "919876543210",
     email: "info@simplyraahi.com",

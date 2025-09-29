@@ -38,7 +38,7 @@ export default function CharDhamPage() {
     bestTime: "May to June & September to October",
     startingPoint: "Rishikesh/Haridwar",
     pdfLink:
-      "https://drive.google.com/file/d/1YYUryzNc0EwLcCWKQ4MHMHXniWGIqbwV/view?usp=sharing",
+      "https://drive.google.com/file/d/1AslclE9aJ5GJalijQpnD6C9XIx7lQJoH/view?usp=sharing",
     whatsappNumber: "919876543210",
     phoneNumber: "919876543210",
     email: "info@simplyraahi.com",

@@ -87,7 +87,7 @@ export default function CombinedDestinationPage() {
       startingPoint: "Delhi/Chandigarh",
       startingPrice: "₹6,500",
       pdfLink:
-        "https://drive.google.com/file/d/1WD9XJ2dMct3RVprVR_60zrIQiL2xEzrQ/view?usp=sharing",
+        "https://drive.google.com/file/d/1DFeJO0Zufh8IRKuiqmD8Cebz5IfuufHT/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",
@@ -140,7 +140,7 @@ export default function CombinedDestinationPage() {
       startingPoint: "Delhi/Chandigarh",
       startingPrice: "₹7,000",
       pdfLink:
-        "https://drive.google.com/file/d/19ozVkYvEyjgYqWLI9CKCbbR3dR-KhFB_/view?usp=sharing",
+        "https://drive.google.com/file/d/1y_t_Y5kZnq6PyitebIGCOYrWwxA-dNwL/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",
@@ -193,7 +193,7 @@ export default function CombinedDestinationPage() {
       startingPoint: "Delhi/Chandigarh",
       startingPrice: "₹7,000",
       pdfLink:
-        "https://drive.google.com/file/d/1wcEdpppWThYRbFblwEscoBG4ROAP2_vl/view?usp=sharing",
+        "https://drive.google.com/file/d/1LaNoaeSnzuoWf53umo_MZeS1XIfsVCNs/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",
@@ -244,7 +244,7 @@ export default function CombinedDestinationPage() {
       bestTime: "All Seasons",
       price: "₹12,999",
       pdfLink:
-        "https://drive.google.com/file/d/1YEJehKJDcNc2XVtDsDMXhmtjfoYBewj_/view?usp=sharing",
+        "https://drive.google.com/file/d/1S_W8eqXxzR1BfkrANq4hcIbt6fWNsQaU/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",
@@ -381,7 +381,7 @@ export default function CombinedDestinationPage() {
       bestTime: "May to June & September to October",
       price: "₹12,999",
       pdfLink:
-        "https://drive.google.com/file/d/1YEJehKJDcNc2XVtDsDMXhmtjfoYBewj_/view?usp=sharing",
+        "https://drive.google.com/file/d/10zAMfySrtKraUGzA-HIbzXYQOFPUByi-/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",
@@ -416,7 +416,7 @@ export default function CombinedDestinationPage() {
       bestTime: "May to June & September to October",
       price: "₹12,999",
       pdfLink:
-        "https://drive.google.com/file/d/1YEJehKJDcNc2XVtDsDMXhmtjfoYBewj_/view?usp=sharing",
+        "https://drive.google.com/file/d/1UeDMC2EEQ6z3DNaVTVGC-Am-Ds0LryHi/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",
@@ -450,7 +450,7 @@ export default function CombinedDestinationPage() {
       bestTime: "Mid June to Early September",
       price: "₹13,999",
       pdfLink:
-        "https://drive.google.com/file/d/19ExvVY-_lKuRYgOZpmtCSvi6dADFkNxa/view?usp=sharing",
+        "https://drive.google.com/file/d/1I1tFP1lKGlsDG2YQugJEk924F4uTAGMP/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",
@@ -501,7 +501,7 @@ export default function CombinedDestinationPage() {
       bestTime: "July to Early September",
       price: "₹14,999",
       pdfLink:
-        "https://drive.google.com/file/d/19HhEAhs_ecqVtTJDLhHn3npDBRziRb6w/view?usp=sharing",
+        "https://drive.google.com/file/d/1dTCzew8GQCijfCWscZvaWq1dSXg-tQkI/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",
@@ -546,7 +546,7 @@ export default function CombinedDestinationPage() {
       image:
         "https://images.unsplash.com/photo-1739875831509-5f22efe9cded?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       pdfLink:
-        "https://drive.google.com/file/d/15nPSz2bWE7T0oxz7ycE-Pfwn7tOUu2cG/view?usp=sharing",
+        "https://drive.google.com/file/d/11b4m7a1RyUC5OvuVjV4lyu93nyUlhiaE/view?usp=sharing",
       duration: "3 Days",
       difficulty: "Easy",
       altitude: "13,123 ft",
@@ -605,7 +605,7 @@ export default function CombinedDestinationPage() {
       startingPoint: "Delhi/Chandigarh",
       startingPrice: "₹6,500",
       pdfLink:
-        "https://drive.google.com/file/d/1fLH8hLhtCO1ogmxVHeGblOHJGzH8V-fh/view?usp=sharing",
+        "https://drive.google.com/file/d/1IGYq6RbMvf5v6wvdYWbH4sHvq8M1yeT_/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",
@@ -656,7 +656,7 @@ export default function CombinedDestinationPage() {
       bestTime: "Mid November to February",
       price: "₹11,999",
       pdfLink:
-        "https://drive.google.com/file/d/1_QTztIw3plpbcE8ejWII0kU1gVFDT-X9/view?usp=sharing",
+        "https://drive.google.com/file/d/1FV5EEweQ2HsvGriklW5TxOmVlDsZsGUf/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",

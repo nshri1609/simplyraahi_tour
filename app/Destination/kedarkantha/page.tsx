@@ -40,7 +40,7 @@ export default function KedarkanthaPage() {
     trekDistance: "18 km",
     startingPoint: "Dehradun",
     pdfLink:
-      "https://drive.google.com/file/d/1UTyr2rQvxq3crzg67-7rsG184TgUkWUg/view?usp=sharing",
+      "https://drive.google.com/file/d/1k1uGNXSRucyEG4ZyFWqj51-N0el5Kw3u/view?usp=sharing",
     whatsappNumber: "919876543210",
     phoneNumber: "919876543210",
     email: "info@simplyraahi.com",

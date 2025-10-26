@@ -346,7 +346,7 @@ export default function CombinedDestinationPage() {
       bestTime: "Mid November to March",
       price: "₹11,999",
       pdfLink:
-        "https://drive.google.com/file/d/1spQZonMSFdg6GnOI_31m-OnjiufFbGAP/view?usp=sharing",
+        "https://drive.google.com/file/d/1k1uGNXSRucyEG4ZyFWqj51-N0el5Kw3u/view?usp=sharing",
       whatsappNumber: "919876543210",
       phoneNumber: "919876543210",
       email: "info@simplyraahi.com",

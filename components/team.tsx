@@ -15,12 +15,6 @@ export default function Team() {
       role: "Content Head",
       image: "/ayush-rawat.jpg",
       description: "Creative content strategist specializing in travel storytelling and destination marketing"
-    },
-    {
-      name: "Annapurna",
-      role: "Sales & Marketing Head",
-      image: "/sales.jpg",
-      description: "Passionate about crafting unique travel experiences and building lasting client relationships"
     }
   ];
 
@@ -43,7 +37,7 @@ export default function Team() {
           </p>
         </motion.div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {teamMembers.map((member, index) => (
             <motion.div
               key={index}
